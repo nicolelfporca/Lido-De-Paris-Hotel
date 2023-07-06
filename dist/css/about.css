@@ -1,0 +1,12 @@
+.header-img{
+    background-image: url('/dist/img/footer.jpg');
+    height: 50vh;
+}
+
+#introCarousel{
+    height: 50vh;
+}
+
+.navbar{
+    padding: 0;
+}

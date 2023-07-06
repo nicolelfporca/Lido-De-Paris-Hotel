@@ -3,7 +3,7 @@
 .carousel-inner,
 .carousel-item,
 .carousel-item.active {
-    height: 100vh;
+    height: 99.9vh;
 }
 
 .carousel-item:nth-child(1) {
@@ -34,23 +34,11 @@
     }
 }
 
-.navbar .nav-link {
+.nav-link {
+    letter-spacing: 2px;
     color: #fff !important;
 }
 
-.nav-link {
-    letter-spacing: 2px;
-}
-
-@media (max-width: 600px) {
-    .navbar {
-        background: #000000d8;
-    }
-
-    #introCarousel,
-    .carousel-inner,
-    .carousel-item,
-    .carousel-item.active {
-        height: 93.5vh;
-    }
+.navbar{
+    padding: 0;
 }
