@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="dist/font/poppins.css" />
     <link rel="stylesheet" href="plugins/mdbootstrap/mdb.min.css" />
     <link rel="stylesheet" href="dist/css/navbar.css" />
+    <link rel="stylesheet" href="dist/css/general.css">
     <link rel="stylesheet" href="dist/css/about.css">
 </head>
 
@@ -83,81 +84,231 @@
             </div>
         </nav>
 
-        <!-- header image -->
+        <!-- carousel slide -->
         <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
-            <div class="p-5 text-center bg-image header-img">
-                <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-                    <div class="d-flex justify-content-center align-items-center h-100">
-                        <div class="text-white">
-
+            <ol class="carousel-indicators">
+                <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
+                <li data-mdb-target="#introCarousel" data-mdb-slide-to="1"></li>
+                <li data-mdb-target="#introCarousel" data-mdb-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div class="text-white text-center">
+                                <h1>WELCOME TO <span class="text-info">LIDO DE PARIS HOTEL</span></h1>
+                                <h1><strong>THE PERFECT <span class="text-info" id="element"></span></strong></h1>
+                                <a class="btn btn-outline-info btn-lg m-2" href="about.html" role="button">EXPLORE
+                                    IT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div class="text-white text-center">
+                                <h1>WELCOME TO <span class="text-info">LIDO DE PARIS HOTEL</span></h1>
+                                <h1><strong>THE PERFECT <span class="text-info" id="element2"></span></strong></h1>
+                                <a class="btn btn-outline-info btn-lg m-2" href="about.html" role="button">EXPLORE
+                                    IT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="mask" style="background-color: rgba(0, 0, 0, 0.3);">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div class="text-white text-center">
+                                <h1>WELCOME TO <span class="text-info">LIDO DE PARIS HOTEL</span></h1>
+                                <h1><strong>THE PERFECT <span class="text-info" id="element3"></span></strong></h1>
+                                <a class="btn btn-outline-info btn-lg m-2" href="about.html" role="button">EXPLORE
+                                    IT</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <a class="carousel-control-prev" href="#introCarousel" role="button" data-mdb-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#introCarousel" role="button" data-mdb-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </header>
 
+    <!-- main container -->
     <main class="mt-5">
-        <div class="container">
-            <section>
-                <div class="row">
-                    <div class="col-md-6 gx-5 mb-4">
-                        <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
-                            <img src="https://mdbootstrap.com/img/new/slides/031.jpg" class="img-fluid" />
-                            <a href="#!">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
+        <div class="container-fluid">
+            <section class="text-center container">
+                <h1 class="mb-5"><strong>ABOUT <span class="text-info">LIDO DE PARIS HOTEL</span></strong></h1>
+                <div class="bg-image hover-overlay ripple about-caption" data-mdb-ripple-color="light">
+                    <p class="text-muted">
+                        Lido de Paris Hotel is conveniently located at the heart of Manila Chinatown, one of its
+                        thriving business districts. Whether you are planning to just finally catch a break to
+                        wanting to spend some quality time with your loved ones, you will surely
+                        enjoy your stay with us.
+                    </p>
+                </div>
+            </section>
+
+            <hr class="my-5 container" />
+
+            <section class="text-center container">
+                <h1 class="mb-5"><strong>WELCOME TO <span class="text-info">OUR HOTEL</span></strong></h1>
+                <div class="bg-image hover-overlay ripple about-caption" data-mdb-ripple-color="light">
+                    <p class="text-muted">
+                        Lido de Paris Hotel & Entertainment Center had its grand opening last 14 October 2012,
+                        strategically located along Ongpin, Sta. Cruz, close to Binondo's business district and shopping
+                        malls.
+                    </p>
+                    <p class="text-muted">
+                        Lido de Paris Hotel's team consists of efficient staff which provides utmost guest satisfaction
+                        by anticipating and responding to every guest nee ds with flexibility and attention to details,
+                        making each stay a worthy experience and a gainful undertaking for the hotel.
+                    </p>
+                    <p class="text-muted">
+                        Offering its highest level of personalized service is the ultimate goal of the hotel management
+                        headed by our
+                        <b>President - Mr. Sonny Aloroy,
+                            Corporate Secretary - Mr. Allan Christopher St,</b> and
+                        <b>Treasurer - Mr. Jason Uy.</b>
+                    </p>
+                    <p class="text-muted">
+                        Room Amenities includes air-conditioning unit with individual controls, cable television with
+                        remore control, private toilet and bath, minibar, 24-hour reception and room service, in-room
+                        safe, laundy, etc.
+                    </p>
+                    <p class="text-muted">
+                        Culinary perfection is at your doorstep with our Coffee shop and Chinese Seafood Restaurant
+                        located at the Ground Floor Lobby. We prepare the menu with elegance, highlighting the best
+                        authentic Chinese ingredients each season has to offer.
+                    </p>
+                    <p class="text-muted">
+                        At Lido de Paris Hotel, "We make you feel at Home", with its multilingual staff, we provide full
+                        range of concierge services, room service and business facilities which are available on
+                        request.
+                    </p>
+                </div>
+            </section>
+
+            <hr class="my-5 container" />
+
+            <section class="text-center container">
+                <div class="row about-caption">
+                    <div class="col-sm-6 mb-5">
+                        <h1 class="mb-5"><strong>MISSION</strong></h1>
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <p class="text-muted">
+                                To provide true and rich hospitality by providing the finest personal service and
+                                facilities for our guests with a warm ambience.
+                            </p>
                         </div>
                     </div>
-
-                    <div class="col-md-6 gx-5 mb-4">
-                        <h4><strong>Facilis consequatur eligendi</strong></h4>
-                        <p class="text-muted">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
-                            eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
-                            sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
-                        </p>
-                        <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
-                        <p class="text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
-                            nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
-                            alias, unde optio accusantium soluta, iusto molestiae adipisci et?
-                        </p>
+                    <div class="col-sm-6">
+                        <h1 class="mb-5"><strong class="text-info">VISION</strong></h1>
+                        <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                            <p class="text-muted">
+                                To be the leading 4-star hotel and deliver consistent personalized service that will
+                                exceed customer satisfaction.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <hr class="my-5" />
+            <hr class="my-5 container" />
 
-            <section>
-                <div class="row">
-                    <div class="col-md-6 gx-5 mb-4">
-                        <div class="bg-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light">
-                            <img src="https://mdbootstrap.com/img/new/slides/031.jpg" class="img-fluid" />
-                            <a href="#!">
-                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                            </a>
+            <section class="text-center">
+                <h1 class="mb-5  container"><strong>OUR <span class="text-info">SERVICES</span></strong></h1>
+                <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                    <p class="text-muted about-caption container">
+                        Lido de Paris Hotel offers top-quality accomodation and services..
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-12 mb-4">
+                            <div class="card">
+                                <div class="bg-image hover-overlay ripple">
+                                    <div class="wrapper">
+                                        <div class="image">
+                                            <img src="dist/img/services1.jpg" alt="Card 1">
+                                            <div class="content">
+                                                <h1 class="text-info">Breakfast & Buffet</h1>
+                                                <p>
+                                                    Ta Lian Restaurant -- where we strongly encourage you to indulge in
+                                                    our wide selection of Chinese and Filipino cuisines.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-
-                    <div class="col-md-6 gx-5 mb-4">
-                        <h4><strong>Facilis consequatur eligendi</strong></h4>
-                        <p class="text-muted">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequatur
-                            eligendi quisquam doloremque vero ex debitis veritatis placeat unde animi laborum
-                            sapiente illo possimus, commodi dignissimos obcaecati illum maiores corporis.
-                        </p>
-                        <p><strong>Doloremque vero ex debitis veritatis?</strong></p>
-                        <p class="text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod itaque voluptate
-                            nesciunt laborum incidunt. Officia, quam consectetur. Earum eligendi aliquam illum
-                            alias, unde optio accusantium soluta, iusto molestiae adipisci et?
-                        </p>
+                        <div class="col-lg-3 col-md-12 mb-4">
+                            <div class="card">
+                                <div class="bg-image hover-overlay ripple">
+                                    <div class="wrapper">
+                                        <div class="image">
+                                            <img src="dist/img/services2.jpg" alt="Card 2">
+                                            <div class="content">
+                                                <h1 class="text-info">Towels and Bedding</h1>
+                                                <p>
+                                                    High Quality fabric used to make sheets and other bedding, and for
+                                                    good reason. It's durable, breathable, soft, easy to care for.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 mb-4">
+                            <div class="card">
+                                <div class="bg-image hover-overlay ripple">
+                                    <div class="wrapper">
+                                        <div class="image">
+                                            <img src="dist/img/services3.jpg" alt="Card 3">
+                                            <div class="content">
+                                                <h1 class="text-info">24/7 Reception</h1>
+                                                <p>
+                                                    There are many variations of passages Loem Ipsum available, but the
+                                                    majority have suffered alteration in some form, by injected humour.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 mb-4">
+                            <div class="card">
+                                <div class="bg-image hover-overlay ripple">
+                                    <div class="wrapper">
+                                        <div class="image">
+                                            <img src="dist/img/services4.jpg" alt="Card 4">
+                                            <div class="content">
+                                                <h1 class="text-info">City Tours</h1>
+                                                <p>
+                                                    Minutes away, the old-world Intramuros is home to Spanish-era
+                                                    landmarks like Fort Santiago, with a large stone gate and a shrine
+                                                    to national hero José Rizal. Spanish colonial furniture and art fill
+                                                    Casa Manila museum, and horse-drawn carriages (kalesa) ply the
+                                                    area’s cobblestone streets.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <hr class="my-5" />
+            <hr class="my-5 container" />
 
         </div>
     </main>
@@ -171,6 +322,8 @@
     </footer>
 
     <script src="plugins/mdbootstrap/mdb.min.js"></script>
+    <script src="plugins/typed.js/typed.umd.js"></script>
+    <script src="plugins/typed.js/typed.js"></script>
 </body>
 
 </html>
