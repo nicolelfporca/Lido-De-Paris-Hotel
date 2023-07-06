@@ -1,0 +1,16 @@
+.carousel-item h1 strong{
+    font-size: 100px;
+    font-weight: 900;
+}
+
+@media (max-width: 600px) {
+    .carousel-item h1{
+        font-size: 20px;
+    }
+    .carousel-item h1 strong{
+        font-size: 45px;
+    }
+    #element{
+        display: block;
+    }
+}
