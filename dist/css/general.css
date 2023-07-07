@@ -1,4 +1,4 @@
-#introCarousel h1 strong {
+#introCarousel h2 strong {
     font-size: 100px;
     font-weight: 900;
 }
@@ -7,12 +7,16 @@
     padding: 0 150px;
 }
 
+h2 strong{
+    font-size: 3rem;
+}
+
 @media (max-width: 1200px) {
-    #introCarousel h1 {
+    #introCarousel h2 {
         font-size: 40px;
     }
 
-    #introCarousel h1 strong {
+    #introCarousel h2 strong {
         font-size: 90px;
     }
 
@@ -22,15 +26,19 @@
 }
 
 @media (max-width: 600px) {
-    #introCarousel h1 {
+    #introCarousel h2 {
         font-size: 20px;
     }
 
-    #introCarousel h1 strong {
+    #introCarousel h2 strong {
         font-size: 45px;
     }
 
     .about-caption {
         padding: 0;
+    }
+
+    h2 strong{
+        font-size: 2rem;
     }
 }

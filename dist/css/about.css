@@ -48,7 +48,7 @@ img{
     opacity: 1;
 }
 
-.content h1{
+.content h2{
     font-size: 40px;
     margin-bottom: 15px;
     padding: 0 20px;
@@ -74,7 +74,7 @@ img{
         height: 35vh;
     }
 
-    .content h1{
+    .content h2{
         font-size: 35px;
     }
 
