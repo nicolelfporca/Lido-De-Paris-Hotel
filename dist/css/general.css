@@ -7,7 +7,7 @@
     padding: 0 150px;
 }
 
-h2 strong{
+h2 strong {
     font-size: 3rem;
 }
 
@@ -20,7 +20,7 @@ h2 strong{
         font-size: 90px;
     }
 
-    .about-caption{
+    .about-caption {
         padding: 0;
     }
 }
@@ -38,7 +38,12 @@ h2 strong{
         padding: 0;
     }
 
-    h2 strong{
+    h2 strong {
         font-size: 2rem;
+    }
+
+    .contact,
+    .get-in-touch {
+        margin-top: 20px;
     }
 }
