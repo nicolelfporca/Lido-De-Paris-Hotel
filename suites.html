@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="dist/css/navbar.css">
     <link rel="stylesheet" href="dist/css/general.css">
     <link rel="stylesheet" href="dist/css/about.css">
+    <link rel="stylesheet" href="plugins/animateOnScroll/aos.css">
 
     <style>
         .carousel-item:nth-child(1) {
@@ -41,7 +42,6 @@
 <body class="bg-light">
 
     <header class="bg-dark">
-        <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark" style="z-index: 2000;">
             <div class="container">
                 <a class="navbar-brand nav-link" href="https://lidodeparishotel.com/" target="_blank">
@@ -107,7 +107,6 @@
             </div>
         </nav>
 
-        <!-- carousel slide -->
         <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
@@ -163,108 +162,159 @@
         </div>
     </header>
 
-    <!-- main container -->
     <main class="mt-5">
         <div class="container">
-
-            <!-- our suites -->
             <section class="text-center">
-                <h2 class="mb-5"><strong>OUR <span class="text-info">SUITES</span></strong></h2>
+                <h2 class="mb-5" data-aos="fade-up" data-aos-duration="2000"><strong>OUR <span
+                            class="text-info">SUITES</span></strong></h2>
 
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 mb-5">
-                        <div class="wrapper">
-                            <div class="image">
-                                <img src="dist/img/services3.jpg" alt="Card 1">
-                                <div class="content">
-                                    <h2 class="text-info">Title</h2>
-                                    <p>Description</p>
+                <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="dist/img/services3.jpg" alt="Trendy Pants and Shoes"
+                                        class="img-fluid rounded-start" />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body" style="padding-top: 4rem">
+                                        <h5 class="card-title">Standard</h5>
+                                        <p class="card-text">
+                                            P3,100.00
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 mb-5">
-                        <div class="wrapper">
-                            <div class="image">
-                                <img src="dist/img/services3.jpg" alt="Card 2">
-                                <div class="content">
-                                    <h2 class="text-info">Title</h2>
-                                    <p>Description</p>
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="dist/img/services3.jpg" alt="Trendy Pants and Shoes"
+                                        class="img-fluid rounded-start" />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body" style="padding-top: 4rem">
+                                        <h5 class="card-title">Standard</h5>
+                                        <p class="card-text">
+                                            P3,100.00
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 mb-5">
-                        <div class="wrapper">
-                            <div class="image">
-                                <img src="dist/img/services3.jpg" alt="Card 1">
-                                <div class="content">
-                                    <h2 class="text-info">Title</h2>
-                                    <p>Description</p>
+                <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="dist/img/services3.jpg" alt="Trendy Pants and Shoes"
+                                        class="img-fluid rounded-start" />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body" style="padding-top: 4rem">
+                                        <h5 class="card-title">Standard</h5>
+                                        <p class="card-text">
+                                            P3,100.00
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 mb-5">
-                        <div class="wrapper">
-                            <div class="image">
-                                <img src="dist/img/services3.jpg" alt="Card 2">
-                                <div class="content">
-                                    <h2 class="text-info">Title</h2>
-                                    <p>Description</p>
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="dist/img/services3.jpg" alt="Trendy Pants and Shoes"
+                                        class="img-fluid rounded-start" />
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 mb-5">
-                        <div class="wrapper">
-                            <div class="image">
-                                <img src="dist/img/services3.jpg" alt="Card 1">
-                                <div class="content">
-                                    <h2 class="text-info">Title</h2>
-                                    <p>Description</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 mb-5">
-                        <div class="wrapper">
-                            <div class="image">
-                                <img src="dist/img/services3.jpg" alt="Card 2">
-                                <div class="content">
-                                    <h2 class="text-info">Title</h2>
-                                    <p>Description</p>
+                                <div class="col-md-6">
+                                    <div class="card-body" style="padding-top: 4rem">
+                                        <h5 class="card-title">Standard</h5>
+                                        <p class="card-text">
+                                            P3,100.00
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 mb-5">
-                        <div class="wrapper">
-                            <div class="image">
-                                <img src="dist/img/services3.jpg" alt="Card 1">
-                                <div class="content">
-                                    <h2 class="text-info">Title</h2>
-                                    <p>Description</p>
+                <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="dist/img/services3.jpg" alt="Trendy Pants and Shoes"
+                                        class="img-fluid rounded-start" />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body" style="padding-top: 4rem">
+                                        <h5 class="card-title">Standard</h5>
+                                        <p class="card-text">
+                                            P3,100.00
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-12 mb-5">
-                        <div class="wrapper">
-                            <div class="image">
-                                <img src="dist/img/services3.jpg" alt="Card 2">
-                                <div class="content">
-                                    <h2 class="text-info">Title</h2>
-                                    <p>Description</p>
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="dist/img/services3.jpg" alt="Trendy Pants and Shoes"
+                                        class="img-fluid rounded-start" />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body" style="padding-top: 4rem">
+                                        <h5 class="card-title">Standard</h5>
+                                        <p class="card-text">
+                                            P3,100.00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-duration="2000">
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="dist/img/services3.jpg" alt="Trendy Pants and Shoes"
+                                        class="img-fluid rounded-start" />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body" style="padding-top: 4rem">
+                                        <h5 class="card-title">Standard</h5>
+                                        <p class="card-text">
+                                            P3,100.00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 mb-4">
+                        <div class="card mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="dist/img/services3.jpg" alt="Trendy Pants and Shoes"
+                                        class="img-fluid rounded-start" />
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body" style="padding-top: 4rem">
+                                        <h5 class="card-title">Standard</h5>
+                                        <p class="card-text">
+                                            P3,100.00
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -288,6 +338,10 @@
     <script src="plugins/mdbootstrap/mdb.min.js"></script>
     <script src="plugins/typed.js/typed.umd.js"></script>
     <script src="plugins/typed.js/typed.js"></script>
+    <script src="plugins/animateOnScroll/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

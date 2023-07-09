@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="dist/css/general.css">
     <link rel="stylesheet" href="dist/css/about.css">
     <link rel="stylesheet" href="dist/css/map.css">
+    <link rel="stylesheet" href="plugins/animateOnScroll/aos.css">
 
     <style>
         .carousel-item:nth-child(1) {
@@ -42,7 +43,6 @@
 <body class="bg-light">
 
     <header class="bg-dark">
-        <!-- navbar -->
         <nav class="navbar navbar-expand-lg navbar-dark" style="z-index: 2000;">
             <div class="container">
                 <a class="navbar-brand nav-link" href="https://lidodeparishotel.com/" target="_blank">
@@ -108,7 +108,6 @@
             </div>
         </nav>
 
-        <!-- carousel slide -->
         <div id="introCarousel" class="carousel slide carousel-fade shadow-2-strong" data-mdb-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-mdb-target="#introCarousel" data-mdb-slide-to="0" class="active"></li>
@@ -164,16 +163,13 @@
         </div>
     </header>
 
-    <!-- main container -->
     <main class="mt-5">
         <div class="container-fluid">
-
-            <!-- about lido de paris hotel -->
             <section class="text-center container">
-                <h2 class="mb-5"><strong>CONTACT <span class="text-info">US</span></strong></h2>
-
+                <h2 class="mb-5" data-aos="fade-up" data-aos-duration="2000"><strong>CONTACT <span
+                            class="text-info">US</span></strong></h2>
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-6" data-aos="fade-right" data-aos-duration="2000">
                         <div id="map-container-google-1" class="z-depth-1-half map-container">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9749649399637!2d120.97744677593366!3d14.60050202707738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397ca04ccc909b1%3A0x5dbea7a73de54543!2z5aSn6L-e6YWS5bqXIExpZG8gZGUgUGFyaXMgSG90ZWw!5e0!3m2!1sen!2sph!4v1688623626604!5m2!1sen!2sph"
@@ -181,7 +177,7 @@
                                 referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3" data-aos="fade-left" data-aos-duration="2000">
                         <h2 class="contact">INFO LINKS</h2>
                         <ul class="list-unstyled">
                             <li>02-87088888 to 91</li>
@@ -205,13 +201,14 @@
                                             }
                                         </style>
                                         <path
-                                            d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z"></path>
+                                            d="M448,209.91a210.06,210.06,0,0,1-122.77-39.25V349.38A162.55,162.55,0,1,1,185,188.31V278.2a74.62,74.62,0,1,0,52.23,71.18V0l88,0a121.18,121.18,0,0,0,1.86,22.17h0A122.18,122.18,0,0,0,381,102.39a121.43,121.43,0,0,0,67,20.14Z">
+                                        </path>
                                     </svg>
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-sm-3">
+                    <div class="col-sm-3" data-aos="fade-left" data-aos-duration="2000">
                         <h2 class="get-in-touch">GET IN TOUCH</h2>
                         <p class="text-muted">
                             For news and updates,<br> kindly subscribe to us.
@@ -251,6 +248,10 @@
     <script src="plugins/typed.js/typed.js"></script>
     <script src="dist/js/send-email.js"></script>
     <script src="plugins/sweetAlert2/sweetalert.js"></script>
+    <script src="plugins/animateOnScroll/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
